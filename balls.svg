@@ -1,0 +1,53 @@
+<svg id="esphere_animation" data-name="esphere animation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 441.6 167.46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #eff1f3;
+      }
+
+      .cls-3 {
+        fill: #e2e2e2;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-7 {
+        fill: #58ff00;
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(-29.2 -166.27)">
+      <path id="donnwall" class="cls-1" d="M134.53,266.69V499.5H365.47V266.69c-33.6,1.83-73.14,2.89-115.47,2.89S168.13,268.52,134.53,266.69Z"/>
+    </clipPath>
+    <clipPath id="clip-path-2" transform="translate(-29.2 -166.27)">
+      <path id="upwall" class="cls-1" d="M134.53.5V266.69c33.6,1.83,73.14,2.89,115.47,2.89s81.87-1.06,115.47-2.89V.5Z"/>
+    </clipPath>
+  </defs>
+  <g id="pozo">
+    <ellipse id="pozo-2" data-name="pozo" class="cls-2" cx="220.8" cy="83.73" rx="220.8" ry="19.58"/>
+    <path id="shadowpozo" class="cls-3" d="M250.23,232.78c116.86,0,212.51,8.05,220.27,18.24a2,2,0,0,0,.3-1c0-10.81-98.85-19.58-220.8-19.58S29.2,239.19,29.2,250a2.2,2.2,0,0,0,.52,1.34C35.73,241,132.15,232.78,250.23,232.78Z" transform="translate(-29.2 -166.27)"/>
+  </g>
+  <g id="white">
+    <g class="cls-4">
+      <circle id="whiteBall" class="cls-5" cx="220.8" cy="83.73" r="83.73"/>
+    </g>
+  </g>
+  <g id="green">
+    <g class="cls-6">
+      <circle id="greenBall" class="cls-7" cx="220.8" cy="83.73" r="83.73"/>
+    </g>
+  </g>
+</svg>

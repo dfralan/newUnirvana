@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1a2b63;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #293d7c;
+      }
+
+      .cls-4 {
+        fill: #c3ddf4;
+      }
+
+      .cls-5 {
+        fill: #aec1ed;
+      }
+
+      .cls-6 {
+        fill: #d9eafc;
+      }
+
+#soporteBG2{
+  -webkit-animation: breathing 3s infinite;
+  animation: breathing 3s infinite;
+}
+
+#soporteOjos2{
+-webkit-animation: see 2s infinite;
+animation: see 5s infinite;
+}
+
+#soporteOjos1{
+-webkit-animation: see 5s infinite;
+animation: see 8s infinite;
+}
+
+@-webkit-keyframes breathing {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+    }
+  
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes breathing {
+    0% {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    50% {
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+    }
+  
+    100% {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }}
+
+  @-webkit-keyframes see {
+    0% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    50% {
+      -webkit-transform: translateX(10px);
+      transform: translateX(10px);
+    }
+  
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes see {
+    0% {
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+  
+    50% {
+      -webkit-transform: translateX(10px);
+      -ms-transform: translateX(10px);
+      transform: translateX(10px);
+    }
+  
+    100% {
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+
+    
+    </style>
+  </defs>
+  <g id="soporteBG">
+    <path class="cls-1" d="M416,250A166,166,0,1,1,250,84,166,166,0,0,1,416,250Z"/>
+    <rect class="cls-2" width="500" height="500"/>
+  </g>
+  <g id="soporteBG2">
+    <path class="cls-3" d="M367,250A117,117,0,1,1,250,133,117,117,0,0,1,367,250Z"/>
+  </g>
+  <g id="fantasma1">
+    <g>
+      <path class="cls-4" d="M191.82,202.64a74.17,74.17,0,0,0-74.17,74.16v30.26A106.28,106.28,0,0,1,111.76,342a166.92,166.92,0,0,0,41.16,42.73h6.78A106.29,106.29,0,0,0,266,278.39v-1.58A74.17,74.17,0,0,0,191.82,202.64Z"/>
+      <path class="cls-5" d="M266,276.8a74.17,74.17,0,0,0-68-73.9,142.2,142.2,0,0,0,40,77.56,144.63,144.63,0,0,0,25.58,20.36A106.88,106.88,0,0,0,266,278.39Z"/>
+    </g>
+  </g>
+  <g id="soporteOjos1">
+    <g>
+      <path class="cls-1" d="M232,246.72c0-9.7-6.27-17.56-14-17.56s-14,7.86-14,17.56,6.27,17.56,14,17.56S232,256.42,232,246.72Z"/>
+      <path class="cls-1" d="M178,246.72c0-9.7-6.27-17.56-14-17.56s-14,7.86-14,17.56,6.28,17.56,14,17.56S178,256.42,178,246.72Z"/>
+    </g>
+  </g>
+  <g id="fantasma2">
+    <g>
+      <path class="cls-6" d="M412.21,285.54a166.42,166.42,0,0,1-8.43,27.15H339.34A133.53,133.53,0,0,1,205.8,179.15v-2a93.18,93.18,0,1,1,186.36,0v38A133.54,133.54,0,0,0,412.21,285.54Z"/>
+      <path class="cls-4" d="M244.71,179.15v-2A93.21,93.21,0,0,1,318.44,86,93.24,93.24,0,0,0,205.8,177.16v2A133.54,133.54,0,0,0,339.34,312.69h38.91A133.54,133.54,0,0,1,244.71,179.15Z"/>
+    </g>
+  </g>
+  <g id="soporteOjos2">
+    <g>
+      <path class="cls-1" d="M335.78,141.58c0-12.11-7.83-21.93-17.5-21.93s-17.51,9.82-17.51,21.93,7.83,21.93,17.51,21.93S335.78,153.69,335.78,141.58Z"/>
+      <path class="cls-1" d="M268.34,141.58c0-12.11-7.84-21.93-17.51-21.93s-17.51,9.82-17.51,21.93,7.84,21.93,17.51,21.93S268.34,153.69,268.34,141.58Z"/>
+    </g>
+  </g>
+</svg>

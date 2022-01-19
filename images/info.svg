@@ -1,0 +1,148 @@
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+                <defs>
+                    <style>.cls-1 {
+    fill: #50d2ff;
+}
+
+.cls-2 {
+    fill: #d9eafc;
+}
+
+.cls-3 {
+    fill: none;
+}
+
+.cls-4 {
+    fill: #d9f0f9;
+}
+
+.cls-5 {
+    fill: #ffaf10;
+}
+
+.cls-6 {
+    fill: #ffd00d;
+}
+
+.cls-7 {
+    fill: #ff9518;
+}
+
+#suggestCloud{
+    -webkit-animation: breathing 7s infinite;
+    animation: breathing 7s infinite;
+}
+
+#suggestBall{
+    -webkit-animation: breathingg 5s infinite;
+    animation: breathingg 5s infinite;
+}
+
+#suggestDestellos{
+    -webkit-animation: breathing 5s infinite;
+    animation: breathing 5s infinite;
+}
+
+
+
+@-webkit-keyframes breathing {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    50% {
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+    }
+  
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes breathing {
+    0% {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    50% {
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+    }
+  
+    100% {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+
+  @-webkit-keyframes breathingg {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    20% {
+      -webkit-transform: scale(1.05);
+      transform: scale(1.05);
+    }
+  
+    50% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes breathingg {
+    0% {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    20% {
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+    }
+  
+    50% {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+                    </style>
+                </defs>
+                <g id="suggestBG">
+                    <circle class="cls-1" cx="250" cy="250" r="166.02"/>
+                    <path class="cls-2" d="M241.67,364.26a32.6,32.6,0,0,0-29,47.55A166.72,166.72,0,0,0,250,416,168.7,168.7,0,0,0,268.78,415a32.6,32.6,0,0,0-27.11-50.7Z"/>
+                    <rect class="cls-3" width="500" height="500"/>
+                </g>
+                <g id="suggestCloud">
+                    <path class="cls-4" d="M389.48,204.28a46.59,46.59,0,0,0-31.78-44.17c.06-.8.1-1.6.1-2.42a32.11,32.11,0,0,0-32.11-32.11,32.54,32.54,0,0,0-5.62.5A66.79,66.79,0,0,0,192.5,145.79a46.58,46.58,0,0,0-55.06,74.9A32.11,32.11,0,1,0,165.68,278a60.33,60.33,0,0,0,53.5,32.4,59.37,59.37,0,0,0,8-.54,32.68,32.68,0,0,0-.44,5.27,32.11,32.11,0,0,0,63.31,7.62,60.38,60.38,0,0,0,76.65-78.42A46.56,46.56,0,0,0,389.48,204.28ZM271.41,219.73l-.65-1.09c.89-.15,1.77-.34,2.65-.53C272.73,218.64,272.06,219.18,271.41,219.73Z"/>
+                </g>
+                <g id="suggestBall">
+                    <g>
+                    <path class="cls-5" d="M221.17,199.4a68.8,68.8,0,0,1,43.3-63.9q-2.85-.25-5.78-.26a65.23,65.23,0,1,0,10.24,129.65A68.78,68.78,0,0,1,221.17,199.4Z"/>
+                    <path class="cls-6" d="M323.92,200.47a65.23,65.23,0,0,0-59.45-65,68.79,68.79,0,0,0,4.46,129.39A65.23,65.23,0,0,0,323.92,200.47Z"/>
+                    <circle class="cls-5" cx="284.32" cy="212.67" r="11.77"/>
+                    <path class="cls-7" d="M222.51,185.83a21.4,21.4,0,0,0,3.8,42.46q.6,0,1.2,0a69,69,0,0,1-5-42.43Z"/>
+                    <path class="cls-5" d="M247.72,206.89a21.41,21.41,0,0,0-21.41-21.4,21.74,21.74,0,0,0-3.8.34,69,69,0,0,0,5,42.43A21.41,21.41,0,0,0,247.72,206.89Z"/>
+                    <path class="cls-7" d="M268.93,264.89a68.54,68.54,0,0,1-21.78-11.67,27,27,0,0,0-1.57,9.11c0,.69,0,1.38.08,2.06a65.94,65.94,0,0,0,23.27.5Z"/>
+                    <path class="cls-5" d="M272.76,235.14a27.18,27.18,0,0,0-25.61,18.08,68.54,68.54,0,0,0,21.78,11.67,65,65,0,0,0,29.16-12.44A27.2,27.2,0,0,0,272.76,235.14Z"/>
+                    <path class="cls-5" d="M313.81,165.59a29.1,29.1,0,0,0,9.1,46.35,65.68,65.68,0,0,0,1-11.47A64.87,64.87,0,0,0,313.81,165.59Z"/>
+                    <path class="cls-5" d="M298.62,148.9a64.9,64.9,0,0,0-39.93-13.66q2.93,0,5.78.26a68.8,68.8,0,0,0-24,16.15,29.11,29.11,0,0,0,58.19-1.27C298.66,149.88,298.65,149.39,298.62,148.9Z"/>
+                    <path class="cls-7" d="M264.47,135.5q-2.85-.25-5.78-.26l-1.82,0-.55,0-1.26.06-.63,0-1.2.08-.6.06-1.25.12-.53.07c-.46.05-.91.11-1.37.18l-.39,0-1.71.27h0c-1.22.21-2.43.46-3.64.75h0a29,29,0,0,0-3.27,13.4c0,.43,0,.85,0,1.27A68.8,68.8,0,0,1,264.47,135.5Z"/>
+                    </g>
+                </g>
+                <g id="suggestDestellos">
+                    <circle class="cls-4" cx="185.17" cy="347.2" r="17.24"/>
+                    <circle class="cls-4" cx="161.19" cy="107.83" r="17.24"/>
+                    <circle class="cls-4" cx="381.23" cy="121.96" r="24.82"/>
+                </g>
+                </svg>
