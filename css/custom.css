@@ -1,0 +1,124 @@
+/*---------------------------------------
+ *                                      *
+ *       Add Your Custom CSS Here       *
+ *                                      *
+ ---------------------------------------*/
+
+
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  .successF{
+    position: fixed;
+    transition: .3s;
+    z-index: 1980;
+    display: none;
+    opacity: 0;
+    background-color: rgb(0, 0, 0, .7);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .successOnSubmit {
+    opacity: 0;
+    transition: .3s;
+    display: none;
+    background-color: white;
+    z-index: 2000;
+    position: fixed;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    top: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+
+  #restrictedAccess{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    transition: .3s;
+    z-index: 1980;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 150%;
+  }
+  
+  .restrictedAccessW {
+    position: fixed;
+    opacity: 1;
+    transition: .3s;
+    display: block;
+    background-color: white;
+    z-index: 2000;
+    min-width: 300px;
+    max-width: 600px;
+    top: 20%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    -moz-animation:appearSteady 1s linear;
+    -ms-animation:appearSteady 1s linear;
+    -o-animation:appearSteady 1s linear;
+    -webkit-animation:appearSteady 1s linear;
+    animation:appearSteady 1s linear;
+  }
+  
+@keyframes appearSteady {
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-webkit-keyframes appearSteady {
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-moz-keyframes appearSteady {
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@-ms-keyframes appearSteady {
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+
+
+.highlighted {
+  background-color: yellow;
+}
