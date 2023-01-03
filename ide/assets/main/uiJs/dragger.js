@@ -163,8 +163,8 @@ República Argentina. </p> <br>
 
 <p>Visite la sección legal para obtener más información.</p>
 
-<a href="https://unirvana.live/Codart/Documentation">Docs</a><br>
-<a href="https://unirvana.live/Codart/PreguntasFrecuentes">F.A.Q</a><br><br>
+<a href="https://github.com/dfralan/newUnirvana/tree/main/ide/doc">Docs</a><br>
+<a href="https://github.com/dfralan/newUnirvana/tree/main/ide">F.A.Q</a><br><br>
 </div>
 `
 
