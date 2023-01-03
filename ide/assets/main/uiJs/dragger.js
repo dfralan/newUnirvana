@@ -164,7 +164,7 @@ República Argentina. </p> <br>
 <p>Visite la sección legal para obtener más información.</p>
 
 <a href="https://github.com/dfralan/newUnirvana/tree/main/ide/doc">Docs</a><br>
-<a href="https://github.com/dfralan/newUnirvana/tree/main/ide">F.A.Q</a><br><br>
+<a href="https://github.com/dfralan/newUnirvana/tree/main/ide">Lib</a><br><br>
 </div>
 `
 
